@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta author="Julio Cesar Prieto Lem" />
+  <title>Errores</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container-fluid">
+      <div class="page-header text-center">
+   	  	   <h2>han ocurrido ciertos errores</h2>
+           <p><?php echo $_GET['err']?></p>
+           <p><button class="btn btn-primary" onclick="history.back()">regresar</buttom></p>
+   	  </div>
+   </div>
+</body>
+</html>

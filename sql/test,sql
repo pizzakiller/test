@@ -1,0 +1,11 @@
+--
+-- Estructura de tabla para la tabla `persona`
+--
+
+CREATE TABLE persona (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  nombre varchar(64) COLLATE utf16_spanish2_ci NOT NULL,
+  apellido varchar(64) COLLATE utf16_spanish2_ci NOT NULL,
+  email varchar(128) COLLATE utf16_spanish2_ci NOT NULL UNIQUE,
+  PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf16 COLLATE=utf16_spanish2_ci;
