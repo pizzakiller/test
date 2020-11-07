@@ -25,8 +25,8 @@ Se uso bootstrap y jquery
 
 - El campo email esta validado con html5 para que tenga el formato correcto y con la clasula unique en la base de datos para evitar registros repetidos.
 
-- En el archivo guardar-data.php hay 2 funciones una para obtener el ip del usuario que se registra y la otra para determinar el origen del dicha ip si el pais es España (ES) , México (MX) o Perú (PE) es redirido a los archivos correspondiente gracias_xx,hml si no corresponde a ninguno de estos paises se va a gracias.html
+- En el archivo guardar-data.php hay 2 funciones una para obtener el ip del usuario que se registra y la otra para determinar el origen del dicha ip si el pais es España (ES) , México (MX) o Perú (PE) es redirigido a la url correspondiente gracias_xx,htm, si no corresponde a ninguno de estos paises se redirige a gracias.html
 
-- si sucede un error al guardar el base de datos se va al archivo error.htm
+- Si sucede un error al guardar en la base de datos se redirige a error.htm
 
 se puede ver ejecutandose en http://alquilahosting.info/test
