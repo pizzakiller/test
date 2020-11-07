@@ -8,9 +8,9 @@ class modelData {
   {
 
     $servername = "localhost";
-    $username = "user";
-    $password = "123456";
-    $dbname = "test";
+    $username = "";
+    $password = "";
+    $dbname = "";
 
     /* crear la conexión */
     $conexion = new mysqli($servername, $username, $password, $dbname);
