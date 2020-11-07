@@ -19,6 +19,8 @@ Se uso bootstrap y jquery
     ahora esta configurad en 0 dias para que siempre aparezca el banner
     si se cambia la configuración solo aparecera al vencer el baner o limpar los datos de navegación.
 
+- En la carpeta sql se puede encontrar el script sql para crear la tabla persona
+
 - Los datos del formulario son procesados en el archivo guardar-data.php este a su vez carga una clase que se encarga de la conexion a la base de datos mysql (editar para cambiar datos de conexion) y de sanitizar los datos para luego guardarlos los datos en una tabla llamada "persona" 
 
 - El campo email esta validado con html5 para que tenga el formato correcto y con la clasula unique en la base de datos para evitar registros repetidos.
